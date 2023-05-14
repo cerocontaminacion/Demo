@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  background-color: #1a1f21;
+} 
+
+.buttons_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column; 
+}
+
+span {
+  width: 50%;
+  text-align: center;
+  color: white; 
+}
+
+h1 {
+  color: white;
+  margin-bottom: 2rem;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #9db0b8;
+}
+
+.micStart:hover {
+  background-color: #e3bfbc;
+}

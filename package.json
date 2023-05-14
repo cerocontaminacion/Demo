@@ -1,0 +1,113 @@
+{
+  "name": "tabs",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@auth0/auth0-react": "^2.0.1",
+    "@capacitor/app": "4.1.1",
+    "@capacitor/core": "4.6.3",
+    "@capacitor/haptics": "4.1.0",
+    "@capacitor/keyboard": "4.1.1",
+    "@capacitor/status-bar": "4.1.1",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@ionic/react": "^6.0.0",
+    "@ionic/react-router": "^6.0.0",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.12",
+    "@stripe/stripe-js": "^1.48.0",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^12.6.3",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^12.19.15",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-router": "^5.1.11",
+    "@types/react-router-dom": "^5.1.7",
+    "cordova-plugin-tts": "^0.2.3",
+    "crypto": "^1.0.1",
+    "framer-motion": "^10.2.4",
+    "history": "^4.9.0",
+    "i18next": "^22.4.11",
+    "ionicons": "^6.0.3",
+    "localforage": "^1.10.0",
+    "next": "^13.2.4",
+    "next-i18next": "^13.2.2",
+    "node-tls": "^0.10.2",
+    "openai": "^3.2.1",
+    "path": "^0.12.7",
+    "polotno": "^1.7.5",
+    "qrcode": "^1.5.1",
+    "qrcode-react": "^0.1.16",
+    "qrcode.react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-i18next": "^12.2.0",
+    "react-openai-api": "^1.0.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.0",
+    "react-speech-kit": "^3.0.1",
+    "react-speech-recognition": "^3.10.0",
+    "react-use-measure": "^2.1.1",
+    "typescript": "^4.1.3",
+    "web-vitals": "^0.2.4",
+    "workbox-background-sync": "^5.1.4",
+    "workbox-broadcast-update": "^5.1.4",
+    "workbox-cacheable-response": "^5.1.4",
+    "workbox-core": "^5.1.4",
+    "workbox-expiration": "^5.1.4",
+    "workbox-google-analytics": "^5.1.4",
+    "workbox-navigation-preload": "^5.1.4",
+    "workbox-precaching": "^5.1.4",
+    "workbox-range-requests": "^5.1.4",
+    "workbox-routing": "^5.1.4",
+    "workbox-strategies": "^5.1.4",
+    "workbox-streams": "^5.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",    
+    "dev": "concurrently \"cd polotno-studio & npm start\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(@ionic/react|@ionic/react-router|@ionic/core|@stencil/core|ionicons)/)'",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      "Chrome >=60",
+      "ChromeAndroid >=60",
+      "Firefox >=63",
+      "Edge >=79",
+      "Safari >=13",
+      "iOS >=13"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@capacitor/cli": "4.6.3",
+    "concurrently": "^7.6.0",
+    "parallelshell": "^3.0.2",
+    "webpack": "^5.76.1"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false,
+    "crypto": false
+  },
+  "description": "An Ionic project"
+}

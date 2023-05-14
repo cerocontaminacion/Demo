@@ -1,0 +1,6 @@
+# Local Netlify folder
+.netlify
+node-modules
+logs
+package-lock1.json
+start.bash

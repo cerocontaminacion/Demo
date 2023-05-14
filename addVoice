@@ -1,0 +1,8 @@
+npm add react-speech-kit
+
+
+packaje.json
+"typeRoots": [
+  "../node_modules/@types",
+  "../@types"
+]
